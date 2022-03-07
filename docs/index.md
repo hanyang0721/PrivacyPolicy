@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<!-- saved from url=(0073)https://www.privacypolicies.com/live/68c66668-185e-48a5-aab1-ec52df90900d -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Privacy Policy for Facebook Application Test</title>
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="./Privacy Policy for Facebook Application Test_files/livelink.css">
-<meta name="robots" content="noindex">
-<script type="text/javascript" async="" src="./Privacy Policy for Facebook Application Test_files/js"></script><script type="text/javascript" async="" src="./Privacy Policy for Facebook Application Test_files/analytics.js.download"></script><script async="" src="./Privacy Policy for Facebook Application Test_files/js(1)"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-64426183-1', { 'anonymize_ip': true });
-    </script>
-<script async="" src="./Privacy Policy for Facebook Application Test_files/js(2)"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-9D331S5YCM');
-    </script>
-</head>
 <body>
 <div class="page">
 <div class="header">
@@ -221,63 +197,5 @@
 </div>
 
 </div>
-<script type="text/javascript">
-    const tabLinks = Array.from(document.querySelectorAll(".tab-link"));
-    const tabContents = document.querySelectorAll(".tab-content");
-
-    tabLinks.forEach(function(tabLink) {
-        tabLink.addEventListener("click", toggleTab);
-    });
-
-    let priorActiveTab = null;
-
-    function toggleTab(event) {
-        tabLinks.forEach(function(tabLink, index){
-            tabLink.classList.remove("active");
-            tabLink.classList.add("inactive");
-
-            tabContents[index].classList.remove("visible");
-            tabContents[index].classList.add("hidden");
-        });
-
-        if(priorActiveTab === this) {
-            this.classList.remove("active");
-            this.classList.add("inactive");
-
-            tabContents[tabLinks.indexOf(this)].classList.remove("visible");
-            tabContents[tabLinks.indexOf(this)].classList.add("hidden");
-
-            priorActiveTab = null;
-        } else {
-            this.classList.remove("inactive");
-            this.classList.add("active");
-
-            tabContents[tabLinks.indexOf(this)].classList.remove("hidden");
-            tabContents[tabLinks.indexOf(this)].classList.add("visible");
-
-            priorActiveTab = this;
-        }
-
-        if (priorActiveTab === null) {
-            this.classList.remove("inactive");
-            this.classList.add("active");
-
-            tabContents[tabLinks.indexOf(this)].classList.remove("hidden");
-            tabContents[tabLinks.indexOf(this)].classList.add("visible");
-        }
-
-        event.preventDefault();
-    }
-</script>
-<script type="text/javascript">
-    "use strict";
-    window.LCG_TRACKING_APPLICATION = "privacypolicies-livelink";
-    window.LCG_TRACKING_ENVIRONMENT = "production";
-    window.LCG_TRACKING_EPOCH = "2020-e01";
-</script>
-<script src="./Privacy Policy for Facebook Application Test_files/js-code" type="text/javascript" async="true"></script>
-<script src="./Privacy Policy for Facebook Application Test_files/js-data" type="text/javascript" async="true"></script>
-<img src="./Privacy Policy for Facebook Application Test_files/px" style="position:fixed;right:0px;bottom:0px;display:none;">
-<script defer="" src="./Privacy Policy for Facebook Application Test_files/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;6e817bad4c423209&quot;,&quot;token&quot;:&quot;78553c15395b4429a9f224714ac63483&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
 
 </body></html>
